@@ -21,7 +21,4 @@ For a short introduction, please see [About Me](About-Me.md).
 * [Induction Computing](Module-01/README.md)
 * [Launch into Computing](Module-02/README.md)
 * [Security and Risk Management](Module-03/README.md)
-* [Module 04](Module-04/README.md)
-* [Module 05](Module-05/README.md)
-* [Module 06](Module-06/README.md)
 
