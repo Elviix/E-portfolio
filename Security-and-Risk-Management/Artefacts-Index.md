@@ -1,2 +1,2 @@
 | 1 | Unit 2 Workshop – AI in Risk Management | seminar answers on NLP, AI analytics, and why combining AI tools supports business continuity. | N/A | [Open](Artefacts/Workshop-Unit2-AI-in-Risk-Management.md) |
-| 2 | Collaborative discussion – Data and technology risks in human rights investigations (Units 1–3) | Three-week discussion: initial post, two peer responses, and summary post across Units 1–3. | N/A | [Open](Artefacts/Collaborative-Discussion-Units1-3.md) |
+| 2 | Collaborative discussion – Data and technology risks in human rights investigations (Units 1–3) | Three-week discussion: initial post, two peer responses, and summary post across Units 1–3. | N/A | [Open](Artefacts/Group/Collaborative Discussion (Units 1–3).md) |
