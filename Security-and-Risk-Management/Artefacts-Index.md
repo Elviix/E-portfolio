@@ -1,1 +1,1 @@
-| 1 | Unit 2 Workshop – AI in Risk Management | ... | N/A | [Open](Artefacts/Workshop-Unit2-AI-in-Risk-Management.md) |
+| 1 | Unit 2 Workshop – AI in Risk Management | seminar answers on NLP, AI analytics, and why combining AI tools supports business continuity. | N/A | [Open](Artefacts/Workshop-Unit2-AI-in-Risk-Management.md) |
