@@ -1,1 +1,10 @@
+# Unit X Seminar – Threat modelling for Industrial Cyber-Physical Systems (ICPS)
 
+### 1) Key elements + interdependencies to capture (and why)
+A good CPS threat model has to include: **assets and their criticality**, **threat actors (insider/outsider)**, **vulnerabilities**, **attack paths/TTPs**, plus the **impact** (availability, integrity, confidentiality, safety) and **detection**. The interdependencies matter because an attack on one layer (e.g., PLC/HMI/OPC UA) can propagate through data flows and operations and create real physical impact. If you miss these links, the risk analysis becomes unrealistic. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+
+### 2) How threat modelling finds entry points + vulnerabilities (and the challenges)
+Threat modelling helps by scoping assets first, then building **attack models/trees** using adversary techniques (e.g., ICS ATT&CK) to show where attackers can enter (network scanning, valid accounts, MITM, etc.) and what they can reach. The challenge is doing it consistently because CPS environments mix IT + OT, include legacy systems, and require good knowledge of the architecture and physical process to model realistic scenarios. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+
+### 3) Using scenario-specific metrics to prioritise vulnerabilities + guide controls
+For prioritisation, the paper uses scenario metrics like **Attack Vector (AV)** and **Attack Likelihood (AL)** to calculate risk and then place it on a risk matrix. AV is treated as the “window of exposure” and depends on factors like threat actor capability, asset criticality, vulnerabilities, detection, and impact; AL reflects how likely the scenario is based on sector history/trends. This supports targeted countermeasures because you can focus controls on the highest AV×AL scenarios, then map them to technical/management mitigations. :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
