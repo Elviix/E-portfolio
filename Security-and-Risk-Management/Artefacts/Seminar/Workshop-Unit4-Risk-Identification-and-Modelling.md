@@ -1,4 +1,4 @@
-# Unit X Seminar – Threat modelling for Industrial Cyber-Physical Systems (ICPS)
+# Unit 4 Seminar : Threat modelling for Industrial Cyber-Physical Systems (ICPS)
 
 ### 1) Key elements + interdependencies to capture (and why)
 A good CPS threat model has to include: **assets and their criticality**, **threat actors (insider/outsider)**, **vulnerabilities**, **attack paths/TTPs**, plus the **impact** (availability, integrity, confidentiality, safety) and **detection**. The interdependencies matter because an attack on one layer (e.g., PLC/HMI/OPC UA) can propagate through data flows and operations and create real physical impact. If you miss these links, the risk analysis becomes unrealistic. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
