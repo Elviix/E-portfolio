@@ -2,7 +2,7 @@
 
 
 ## Context 
-This seminar is based on Jbair, M., Ahmad, B., Maple, C. and Harrison, R. (2022) Threat modelling for industrial cyber physical systems in the era of smart manufacturing, Computers in Industry, 137, p.103611
+This workshop is based on : Jbair, M., Ahmad, B., Maple, C. and Harrison, R. (2022) Threat modelling for industrial cyber physical systems in the era of smart manufacturing, Computers in Industry, 137, p.103611
 
 
 ## 1) What are the key elements and interdependencies in a cyber-physical system that must be captured in a comprehensive threat model, and why are they critical for accurate risk analysis?
