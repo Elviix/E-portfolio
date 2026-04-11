@@ -1,5 +1,9 @@
 # Unit 4 Seminar workshop : Threat modelling for Industrial Cyber-Physical Systems (ICPS)
 
+## Context note
+
+This seminar is based on Jbair, M., Ahmad, B., Maple, C. and Harrison, R. (2022) Threat modelling for industrial cyber physical systems in the era of smart manufacturing, Computers in Industry, 137, p.103611
+
 
 ## 1) What are the key elements and interdependencies in a cyber-physical system that must be captured in a comprehensive threat model, and why are they critical for accurate risk analysis?
 A complete CPS threat model must capture the full chain: threat actor (insider/outsider + skills/resources), assets (with criticality), vulnerabilities, attacks/TTPs, attack impact (availability, integrity, confidentiality, safety), attack detection, and likelihood. The interdependencies matter because attacks propagate across layers (IT,OT) and can turn a “cyber” event into a real physical impact. If you model only one layer, your risk analysis becomes unrealistic. 
