@@ -1,4 +1,4 @@
-# Unit 2 Seminar Workshop – The Role of AI in Risk Management
+# Unit 2 Seminar Workshop : The Role of AI in Risk Management
 
 ## Context
 This workshop is based on: Kalogiannidis, S., Kalfas, D., Papaevangelou, O., Giannarakis, G. and Chatzitheodoridis, F. (2024) ‘The role of artificial intelligence technology in predictive risk assessment for business continuity: a case study of Greece’, *Risks*, 12(2), p. 19.
