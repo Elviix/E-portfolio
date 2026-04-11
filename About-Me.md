@@ -9,8 +9,6 @@ My background is in healthcare, and I am now transitioning into cyber security. 
 * digital forensics
 * networking
 * OSINT
-* risk assessment
-* security operations
 
 ## Additional learning
 
