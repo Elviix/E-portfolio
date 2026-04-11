@@ -1,7 +1,7 @@
 # Unit 4 Seminar workshop : Threat modelling for Industrial Cyber-Physical Systems (ICPS)
 
-## Context note
 
+## Context 
 This seminar is based on Jbair, M., Ahmad, B., Maple, C. and Harrison, R. (2022) Threat modelling for industrial cyber physical systems in the era of smart manufacturing, Computers in Industry, 137, p.103611
 
 
