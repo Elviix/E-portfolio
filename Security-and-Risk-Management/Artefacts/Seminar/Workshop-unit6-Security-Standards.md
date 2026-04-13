@@ -18,4 +18,4 @@ I would check this through an audit. This would include reviewing documents, pol
 My recommendations would be regular updates, security checklists, stronger access controls, staff training, monitoring, and regular audits.
 
 ## 4) What assumptions have you made?
-I assume that the company is a typical UK digital business, processes personal data, may accept card payments, and does not fully meet all the relevant standards yet
+I assume that the company does not fully meet all the relevant standards yet
