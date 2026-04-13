@@ -8,14 +8,14 @@ Appendix G – Hmg Cybersecurity Guidelines | Information Risk Management, 2nd E
 Appendix D – Information Risk Controls | Information Risk Management, 2nd Edition.
 <br>
 
-## 1)Which standards would apply?
+## 1) Which standards would apply?
 UK GDPR would apply because the company is based in the UK and handles customer personal data. PCI DSS would apply if the company accepts card payments. HIPAA would not normally apply unless the company handles US healthcare data. HMG controls would only apply if the company works with UK government data or contracts.
 
-## 2)How would you check if standards were being met?
+## 2) How would you check if standards were being met?
 I would check this through an audit. This would include reviewing documents, policies, contracts, access controls, MFA, encryption, logging, backups, staff awareness, and incident response.
 
-## 3)What would your recommendations be?
+## 3) What would your recommendations be?
 My recommendations would be regular updates, security checklists, stronger access controls, staff training, monitoring, and regular audits.
 
-## 4)What assumptions have you made?
+## 4) What assumptions have you made?
 I assume that the company is a typical UK digital business, processes personal data, may accept card payments, and does not fully meet all the relevant standards yet
