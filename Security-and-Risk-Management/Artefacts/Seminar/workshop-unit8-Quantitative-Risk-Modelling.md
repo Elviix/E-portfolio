@@ -12,4 +12,4 @@ Persuasion principles such as authority, commitment, and reciprocity, together w
 The Attack Tree Model estimates AOP using the frequency of modality and persuasion principles. The Markov Chain Model estimates ASP by modelling attacker stages such as Disconnect, Connect, Persuade, and Success.
 
 ## 4) In what ways can the findings of this study support the development of effective policy frameworks for mitigating social engineering threats in information systems?
-The findings can support better awareness training, user education, and defensive policies by showing which social engineering methods are more likely to occur and succeed
+The findings can support better awareness training, user education, and defensive policies by showing which social engineering methods are more likely to occur and succeed.
