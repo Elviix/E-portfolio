@@ -2,7 +2,7 @@
 
 
 ## Context
-This workshop is based on :Kumar, Aashish. "Cloud Vendor Lock-In: Identify, Strategies and Mitigate" (2024)
+This workshop is based on : Kumar, Aashish. "Cloud Vendor Lock-In: Identify, Strategies and Mitigate" (2024)
 
 ## Questions and answers
 
