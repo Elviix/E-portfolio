@@ -8,6 +8,8 @@ Appendix G – Hmg Cybersecurity Guidelines | Information Risk Management, 2nd E
 Appendix D – Information Risk Controls | Information Risk Management, 2nd Edition.
 <br>
 
+## Questions and answers
+
 ## 1) Which of the standards discussed in the sources above would apply to the organisation discussed in the assessment?
 UK GDPR would apply because the company is based in the UK and handles customer personal data. PCI DSS would apply if the company accepts card payments. HIPAA would not normally apply unless the company handles US healthcare data. HMG controls would only apply if the company works with UK government data or contracts.
 
