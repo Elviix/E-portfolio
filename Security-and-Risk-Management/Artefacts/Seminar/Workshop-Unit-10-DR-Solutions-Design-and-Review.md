@@ -4,6 +4,8 @@
 ## Context
 This workshop is based on :Kumar, Aashish. "Cloud Vendor Lock-In: Identify, Strategies and Mitigate" (2024)
 
+## Questions and answers
+
 ## 1) What are some of the main vendor lock-in issues the authors identify? How would you mitigate them?
 
 Vendor lock-in happens when an organisation becomes too dependent on one cloud provider, making it difficult, costly, and time-consuming to move services elsewhere. 
