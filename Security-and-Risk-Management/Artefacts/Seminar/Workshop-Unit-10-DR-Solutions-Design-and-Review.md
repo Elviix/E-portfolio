@@ -1,6 +1,7 @@
 ## WORKSHOP UNIT 10 : DR Solutions Design and Review
 
-# Context : This workshop is based on :Kumar, Aashish. "Cloud Vendor Lock-In: Identify, Strategies and Mitigate" (2024)
+# Context
+This workshop is based on :Kumar, Aashish. "Cloud Vendor Lock-In: Identify, Strategies and Mitigate" (2024)
 
 # 1) What are some of the main vendor lock-in issues the authors identify? How would you mitigate them?
 
