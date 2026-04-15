@@ -1,5 +1,7 @@
 # Unit 8 Seminar : Quantitative Risk Modelling
 
+## Context
+
 ## This workshop is based on : Aijaz, M. and Nazir, M. (2024 ) Modelling and analysis of social engineering threats using the attack tree and the Markov model. International Journal of Information Technology, 16(2), pp.1231-1238
 
 ## 1) What are the main challenges in modelling and evaluating the outcomes of Social Engineering Threats, and how does this study attempt to address them?
