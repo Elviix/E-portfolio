@@ -10,7 +10,7 @@ This case study addresses the right of access under Article 15 GDPR and the obli
 The main issue was that the company did not process the request within the time required by GDPR.
 
 ## 3) How was it resolved?
-The DPC contacted the company after receiving the complaint. After that, the company sent the data subject a copy of the requested telephone call, and the complaint was resolved amicably, so no further action was needed.
+The Data Protection Commmission contacted the company after receiving the complaint. After that, the company sent the data subject a copy of the requested telephone call, and the complaint was resolved amicably, so no further action was needed.
 
 ## 4) If this was your organisation what steps would you take as an Information Security Manager to mitigate the issue?
 If this was my organisation, I would first make sure there is a clear process for handling access requests. I would assign responsibility to the right staff, keep a deadline tracking system, and train employees so they understand that GDPR requests must be answered within one month.
