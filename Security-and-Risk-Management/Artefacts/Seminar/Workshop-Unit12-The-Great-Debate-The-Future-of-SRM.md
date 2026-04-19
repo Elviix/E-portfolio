@@ -1,3 +1,10 @@
+# Unit 12 Seminar Workshop : The Great Debate - The Future of SRM
+
+
+## Context
+Presentation on a major future trend in Security and Risk Management, including analysis, justification, seminar discussion, and class vote.
+
+
 # AI in Healthcare: The Most Influential Trend in Security and Risk Management in the Next 5 Years  
 
 Artificial intelligence is gradually transforming healthcare. In the next five years, AI is likely to become one of the most influential trends in Security and Risk Management because it will affect clinical decision-making, patient safety, data protection, and professional accountability. 
