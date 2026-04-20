@@ -16,11 +16,11 @@ AI in healthcare creates major opportunities, but it also expands the attack sur
 These systems are valuable targets for cybercriminals. A ransomware attack in a hospital does not only affect data: it can disrupt care delivery and create real patient safety consequences. 
 The FDA (2026) has repeatedly warned that cybersecurity threats in healthcare can affect the safety and effectiveness of medical technologies and may have direct clinical impact.  
 AI systems are also exposed to newer forms of attack. For example, prompt injection can manipulate an AI model into producing unsafe or misleading outputs. 
-In a healthcare setting, this could mean dangerous treatment suggestions, missed warnings, or incorrect medication advice. Recent medical AI research has shown that healthcare-oriented AI models can indeed be vulnerable to prompt injection attacks.  
+In a healthcare setting, this could mean dangerous treatment suggestions, missed warnings, or incorrect medication advice. Recent medical AI research has shown that healthcare-oriented AI models can indeed be vulnerable to prompt injection attacks (Lee, Jun and Lee, 2025).
 
 Another important threat is social engineering. Deepfakes and AI-generated impersonation could be used to mimic a doctor, manager, in order to give false instructions. 
-In a high-pressure clinical environment, where staff often act quickly, this creates a serious risk.  
-From my perspective as a nurse, one of the biggest vulnerabilities is patient data. When AI tools are connected to electronic health records, the risk to confidentiality and privacy becomes significant, especially under GDPR and broader health data protection obligations. 
+In a high-pressure clinical environment, where staff often act quickly, this creates a serious risk. <br>  
+From my perspective as a nurse, one of the biggest vulnerabilities is patient data. When AI tools are connected to electronic health records, the risk to confidentiality and privacy becomes significant, especially under GDPR and broader health data protection obligations. <br>
 Human factors also remain critical. Many healthcare workers are not trained sufficiently in cybersecurity, which makes staff one of the weakest links in the chain.  
 
 In addition, the use of unauthorised tools, shadow AI, is already becoming a real issue. This matters because staff may paste sensitive patient information into systems that are not approved or secure.  
@@ -54,6 +54,8 @@ It can improve diagnosis, efficiency, and patient monitoring, but it also introd
  
 References:  
 Janghel, R.R. and Rathore, Y.K. (2020) 'Deep convolution neural network based system for early diagnosis of Alzheimer's disease', IRBM, pp. 1–10. Available at: https://www.sciencedirect.com/science/article/abs/pii/S195903182030110X?via%3Dihub (Accessed: August 2021)  
+
+Lee, R.W., Jun, T.J. and Lee, J.M. (2025) 'Vulnerability of large language models to prompt injection when providing medical advice', JAMA Network Open, 8(12), p. e2549963. doi: 10.1001/jamanetworkopen.2025.49963. Available at: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2842987 (Accessed: December 2025)
 
 Nguyen, D.L., Ren, Y., Jones, T.M., Thomas, S.M., Lo, J.Y. and Grimm, L.J. (2024) 'Patient characteristics impact performance of AI algorithm in interpreting negative screening digital breast tomosynthesis studies', Radiology, 311(2), p. e232286. doi: 10.1148/radiol.232286. Available at: https://pubs.rsna.org/doi/epdf/10.1148/radiol.232286(Accessed: May 2024) 
 
