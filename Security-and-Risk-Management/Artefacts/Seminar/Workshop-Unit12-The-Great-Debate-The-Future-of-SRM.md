@@ -16,7 +16,7 @@ AI in healthcare creates major opportunities, but it also expands the attack sur
 These systems are valuable targets for cybercriminals. A ransomware attack in a hospital does not only affect data: it can disrupt care delivery and create real patient safety consequences. 
 The FDA (2026) has repeatedly warned that cybersecurity threats in healthcare can affect the safety and effectiveness of medical technologies and may have direct clinical impact.  
 AI systems are also exposed to newer forms of attack. For example, prompt injection can manipulate an AI model into producing unsafe or misleading outputs. 
-In a healthcare setting, this could mean dangerous treatment suggestions, missed warnings, or incorrect medication advice. Recent medical AI research has shown that healthcare-oriented AI models can indeed be vulnerable to prompt injection attacks (Lee, Jun and Lee, 2025).
+In a healthcare setting, this could mean dangerous treatment suggestions, missed warnings, or incorrect medication advice. Recent medical AI research has shown that healthcare-oriented AI models can indeed be vulnerable to prompt injection attacks (Lee et al. 2025).
 
 Another important threat is social engineering. Deepfakes and AI-generated impersonation could be used to mimic a doctor, manager, in order to give false instructions. 
 In a high-pressure clinical environment, where staff often act quickly, this creates a serious risk. <br>  
