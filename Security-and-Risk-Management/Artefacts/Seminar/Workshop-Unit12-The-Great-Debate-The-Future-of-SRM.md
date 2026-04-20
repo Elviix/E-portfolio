@@ -49,7 +49,9 @@ It may support professionals, but it should not be allowed to make autonomous de
 In my opinion, AI in medicine is likely to be one of the most influential trends in Security and Risk Management over the next five years because it affects every level of healthcare: clinical practice, cybersecurity, data protection, ethics, governance, and professional responsibility. 
 It can improve diagnosis, efficiency, and patient monitoring, but it also introduces serious risks if it is poorly governed. For this reason, the future of AI in healthcare will depend not only on innovation, but also on strong security controls, staff training, legal compliance, and continuous human oversight.  
 
- 
+ <br>
+ <br>
+ <br>
 
  
 References:  
