@@ -9,7 +9,7 @@ Presentation on a major future trend in Security and Risk Management, including 
 # AI in Healthcare: The Most Influential Trend in Security and Risk Management in the Next 5 Years  
 
 Artificial intelligence is gradually transforming healthcare. In the next five years, AI is likely to become one of the most influential trends in Security and Risk Management because it will affect clinical decision-making, patient safety, data protection, and professional accountability. 
-AI is already being used in areas such as diagnostic imaging, patient monitoring, documentation, and clinical decision support. For example, research done by Janghel and Rathore (2020) used deep learning on neuroimaging data for Alzheimer’s disease detection and showed accuracy diagnosis of 99.95% for MRI dataset and 73.46% for PET scan.  
+AI is already being used in areas such as diagnostic imaging, patient monitoring, documentation, and clinical decision support. For example, research by Janghel and Rathore (2020) used deep learning on neuroimaging data for Alzheimer's disease detection and showed a diagnostic accuracy of 99.95% for the MRI dataset and 73.46% for the PET scan dataset.
 
 ## Security risks, threats and vulnerabilities  
 AI in healthcare creates major opportunities, but it also expands the attack surface. Hospitals increasingly rely on connected systems such as electronic health records, diagnostic platforms, e-prescribing tools, and smart medical devices. 
