@@ -1,4 +1,8 @@
-Collaborative Discussion (Units 7–9) – CVSS Critique and Alternatives (Wunder et al., 2024)
+# Collaborative Discussion (Units 7–9) – CVSS Critique and Alternatives (Wunder et al., 2024)
+
+## Activity overview
+Discussion topic: Critical analysis of CVSS limitations and evaluation of alternative vulnerability scoring systems (based on Wunder et al., 2024). Duration: 3 weeks (Units 7–9). One peer response received and one peer response given. No summary post produced due to limited peer engagement.
+
 
 ## Initial Post
 
