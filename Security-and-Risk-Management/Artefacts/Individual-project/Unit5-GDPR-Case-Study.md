@@ -1,8 +1,6 @@
 # Unit 5 : Data Protection Commission (2020) Case Studies: Data Protection Commission.
 
 ## Context : Based on  Data protections case studies (dataprotection.ie)
-A Multinational technology company that did not reply on time to a person who asked for access to their personal data
-
 Case Study 1: Late response to an access request (Applicable law — GDPR & Data Protection Act 2018)
 
 ## 1) What is the specific aspect of GDPR that your case study addresses?
