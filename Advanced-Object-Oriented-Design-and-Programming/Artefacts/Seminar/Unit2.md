@@ -1,1 +1,6 @@
+# Unit 2 Seminar : SOLID Principles of Object-Oriented Design
 
+## Context
+The Unit 2 seminar explored the five SOLID principles of object oriented design: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation and Dependency Inversion. The practical task was a hands-on refactoring session, where we took existing code and restructured it to follow these principles, to see how they improve maintainability and scalability in practice.
+
+For the practical exercise I refactored my code so that each class has one clear responsibility, and new behaviour can be added by writing new classes rather than editing existing ones. The full refactored program and its description are in the Individual Project section [Unit2-Case-Study](Advanced-Object-Oriented-Design-and-Programming/Artefacts/Individual-project/Unit2-Case-Study.md). Working through the refactoring taught me that SOLID is easier to understand by doing than by reading: I only really grasped the difference between the principles when I had to decide, line by line, which one my code was breaking. This exercise also became the foundation of my final artefact, since the SOLID structure I built here is what later allowed me to add a decorator, a visitor and unit tests without breaking anything
