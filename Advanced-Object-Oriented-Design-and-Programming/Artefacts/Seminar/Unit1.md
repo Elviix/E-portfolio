@@ -1,4 +1,7 @@
+# Unit 1 Seminar : Introduction and Recap of Object-Oriented Programming
 
+## Context
+The Unit 1 seminar was a recap of the four core concepts of object oriented programming: inheritance, polymorphism, abstraction and encapsulation. The practical task was to implement a basic class hierarchy in Python to demonstrate these concepts, for example a vehicle management system with a base class and subclasses, and to come prepared with questions on the topics we found challenging
 
 For the Unit 1 seminar I implemented the practical exercise as a small class hierarchy in Python, which demonstrates the four core OOP concepts, 
 inheritance through the subclasses that share a common base class, polymorphism through methods that each subclass overrides in its own way, abstraction through the base class that hides the implementation details, and encapsulation through attributes that can only be reached via controlled methods. My teacher's feedback on this work was to add commentary, so I have made a habit of commenting every program I write since, explaining the reasoning behind each decision rather than just describing the code. Rather than duplicating the code here, the full program and its description are in the Personal Project section [link]. 
