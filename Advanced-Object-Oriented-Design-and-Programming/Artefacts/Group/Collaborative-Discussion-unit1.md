@@ -4,7 +4,7 @@
 
 - **Discussion topic:** Applying structural design patterns (Adapter, Bridge, Composite) to real-world scenarios, with Python code examples.
 - **Duration:** Unit 4.
-- **Required posts:** Initial Post (scenario, explanation and code example for each pattern), Peer Responses, 
+- **Required posts:** Initial Post (scenario, explanation and code example for each pattern), Peer Responses.
 
 ## Discussion Tasks
 
