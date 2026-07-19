@@ -113,10 +113,4 @@ product_service.add_product("p2", "Phone", 500, 10)
 print([p.name for p in product_service.search("lap")])  # ['Laptop']
 ```
 
-**How the solution maps to the layered architecture:**
-
-- **Data Access Layer:** UserRepository and ProductRepository encapsulate storage behind add/get/find_by_name, so the storage mechanism (here an in-memory dict) can be swapped for a database without touching the services.
-- **Business Logic Layer:** UserService and ProductService implement registration, authentication and product search, and only talk to repositories through their public interface.
-- **Modularity:** the User Management and Product Catalog modules are fully independent — each has its own entity, repository and service.
-- **Security:** passwords are never stored in plaintext; PasswordHasher isolates bcrypt hashing and verification.
-- **Extensibility (Dependency Injection):** services receive their repository and hasher through the constructor, so implementations can be replaced (e.g., a different hashing algorithm or a SQL-backed repository) without modifying the service code.
+The repositories handle storage and the services handle the logic, so the dict could be swapped for a real database without touching the services. I used bcrypt to hash passwords before storing them. The services get their repository and hasher through the constructor, which is dependency injection. The two modules are independent, so adding order processing later just means a new repository and service.
