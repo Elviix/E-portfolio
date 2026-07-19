@@ -139,12 +139,25 @@ root.show()
 print(f"Size: {root.get_size()} MB")  # Size: 18 MB
 ```
 
-## Peer Response 1
+## Feedback Received from a Peer
 
+A peer reviewed my Bridge Pattern implementation and highlighted the following improvements:
 
 I have reviewed your Bridge Pattern code and noted a few architectural vulnerabilities that would hold it back in a production environment. Examples:
-•Your Device class uses pass for its methods. In Python, this doesn't actually force subclasses like TV or Radio to implement turn_on or turn_off. If a developer creates a Speaker(Device) class but forgets to define turn_on(), Python won't complain until runtime when the code crashes.
-•The Remote tracks whether the device is on via self.is_on. This is dangerous. The Device should be the single source of truth for its own state. If someone turns the TV on manually (via a physical button or a different remote object), your Remote state becomes completely desynchronized from reality.
-•Because Python is dynamically typed, a developer could technically pass anything into Remote(device). Explicitly type-hinting the Device abstract class ensures better IDE auto-complete and static analysis linting.
-To fix these issues, use Python’s built-in abc module to enforce the interface, and delegate the power state entirely to the implementation side.
+Your Device class uses pass for its methods. In Python, this doesn't actually force subclasses like TV or Radio to implement turn_on or turn_off. If a developer creates a Speaker(Device) class but forgets to define turn_on(), Python won't complain until runtime when the code crashes.
+The Remote tracks whether the device is on via self.is_on. This is dangerous. The Device should be the single source of truth for its own state. If someone turns the TV on manually (via a physical button or a different remote object), your Remote state becomes completely desynchronized from reality.
+Because Python is dynamically typed, a developer could technically pass anything into Remote(device). Explicitly type-hinting the Device abstract class ensures better IDE auto-complete and static analysis linting.
+To fix these issues, use Python's built-in abc module to enforce the interface, and delegate the power state entirely to the implementation side.
 
+## Peer Response 1
+In response to a peer's post covering the three structural patterns, whose Bridge example had AdvancedRemote inheriting from BasicRemote, and whose Adapter checked the SOAP response with a simple string match:
+Thank you for your example.
+I think your Bridge Pattern is more an inheritance pattern. In fact, the remote should hold a device and call through it, and not have AdvancedRemote inherit from BasicRemote.
+Also, on the Adapter, checking "<ok>" in xml is fine for a demo, but a real SOAP response would need proper XML parsing: string matching breaks with namespaces.
+
+# Peer Response 2
+In response to a peer's post applying the Adapter Pattern to SIEM platforms in Security Operations Centres, where connectors/parsers normalise vendor-specific log formats into a unified schema:
+Thank you for your post. The SIEM framing is really helpful since I am heading into a SOC internship and this is the kind of integration problem I may run into.
+From what I understand, the target interface in most cases is a fixed schema like Splunk's CIM, and a lot of the work is mapping vendor fields into it.
+What I find interesting is the risk side: if a vendor changes its log format, events stop normalising properly and detection can fail without anyone noticing.
+Your Open/Closed point makes sense: a new log source means a new connector instead of touching the SIEM core.
