@@ -1,40 +1,34 @@
-# Collaborative Discussion 1 (Unit 4)  Structural Design Patterns: Adapter, Bridge and Composite
+# Collaborative Discussion 1 (Unit 4) – Structural Design Patterns: Adapter, Bridge and Composite
 
 ## Activity overview
-**Discussion topic:** Applying structural design patterns (Adapter, Bridge, Composite) to real-world scenarios, with Python code examples.
-**Unit 4.**
-**Required posts:** Initial Post (scenario, explanation and code example for each pattern), Peer Responses.
+
+- **Discussion topic:** Applying structural design patterns (Adapter, Bridge, Composite) to real-world scenarios, with Python code examples.
+- **Duration:** Unit 4.
+- **Required posts:** Initial Post (scenario, explanation and code example for each pattern), Peer Responses, 
 
 ## Discussion Tasks
-The Adapter Pattern allows incompatible interfaces to work together. An adapter class acts as a bridge, translating requests/responses between the modern system and the legacy system.
 
-## Scenario: Integrating a legacy payment system (e.g., an old SOAP-based API) with a modern e-commerce platform (expecting RESTful JSON APIs).
-Explain how the Adapter Pattern would solve the problem.
-Share a code example (in Python) demonstrating the Adapter Pattern.
-
-
-The Bridge Pattern separates abstraction from implementation and decouples abstraction (RemoteControl) from implementation (Device).
-
-Scenario: Managing different devices (TV, Radio) and their remote controls (Basic, Advanced).
-Explain how the Bridge Pattern would solve the problem.
-Share a code example (in Python) demonstrating the Bridge Pattern.
-
-
-The Composite Pattern allows you to compose objects into hierarchical structures (tree of objects). Both File and Folder implement the same interface (FileSystemComponent).
-
-Scenario: Managing a file system where files and folders can be treated uniformly.
-Explain how the Composite Pattern would solve the problem.
-Share a code example (in Python) demonstrating the Composite Pattern.
-
----
+1. **The Adapter Pattern** allows incompatible interfaces to work together. An adapter class acts as a bridge, translating requests/responses between the modern system and the legacy system.
+   - Scenario: Integrating a legacy payment system (e.g., an old SOAP-based API) with a modern e-commerce platform (expecting RESTful JSON APIs).
+   - Explain how the Adapter Pattern would solve the problem.
+   - Share a code example (in Python) demonstrating the Adapter Pattern.
+2. **The Bridge Pattern** separates abstraction from implementation and decouples abstraction (RemoteControl) from implementation (Device).
+   - Scenario: Managing different devices (TV, Radio) and their remote controls (Basic, Advanced).
+   - Explain how the Bridge Pattern would solve the problem.
+   - Share a code example (in Python) demonstrating the Bridge Pattern.
+3. **The Composite Pattern** allows you to compose objects into hierarchical structures (tree of objects). Both File and Folder implement the same interface (FileSystemComponent).
+   - Scenario: Managing a file system where files and folders can be treated uniformly.
+   - Explain how the Composite Pattern would solve the problem.
+   - Share a code example (in Python) demonstrating the Composite Pattern.
 
 ## Initial Post
 
-Adapter Pattern
+### Adapter Pattern
 
 A legacy payment system like SOAP has compatibility issues with modern API. The Adapter Pattern fixes the issue by translating the legacy system to a modern one without changing the code.
 
-python# legacy SOAP system
+```python
+# legacy SOAP system
 class LegacyPaymentSystem:
     def process_soap_payment(self, currency, amount):
         return f"Payment: {currency}{amount}"
@@ -50,12 +44,14 @@ class PaymentAdapter:
 adapter = PaymentAdapter()
 result = adapter.pay(60)
 print(result)  # Payment: €60
+```
 
-Bridge Pattern
+### Bridge Pattern
 
-The Bridge Pattern connects the abstraction (Remote) and the implementation (Device) via self.device = device. Both sides can grow independently without creating a new class for every combination.
+The Bridge Pattern connects the abstraction (Remote) and the implementation (Device) via `self.device = device`. Both sides can grow independently without creating a new class for every combination.
 
-pythonclass Device:
+```python
+class Device:
     def turn_on(self): pass
     def turn_off(self): pass
 
@@ -92,12 +88,14 @@ r1.togglepower()   # TV ON
 r2 = Remote(Radio())
 r2.togglepower()   # Radio ON
 r2.togglepower()   # Radio OFF
+```
 
-Composite Pattern
+### Composite Pattern
 
-The Composite Pattern lets us treat files and folders the same way via a shared interface. In the code below, FileSystem is the common interface, File is the leaf and returns its own size, Folder is the composite: it loops through its children and delegates get_size() (recursively).
+The Composite Pattern lets us treat files and folders the same way via a shared interface. In the code below, `FileSystem` is the common interface, `File` is the leaf and returns its own size, `Folder` is the composite: it loops through its children and delegates `get_size()` (recursively).
 
-pythonclass FileSystem:   # base component
+```python
+class FileSystem:   # base component
     def get_size(self): pass
 
 class File(FileSystem):  # Leaf (single object)
@@ -139,10 +137,14 @@ documents.add(File("cover_letter.pdf", 6)) # cover_letter.pdf, 6 MB
 root.add(documents)
 root.show()
 print(f"Size: {root.get_size()} MB")  # Size: 18 MB
+```
 
 ## Peer Response 1
 
+
 I have reviewed your Bridge Pattern code and noted a few architectural vulnerabilities that would hold it back in a production environment. Examples:
-Your Device class uses pass for its methods. In Python, this doesn't actually force subclasses like TV or Radio to implement turn_on or turn_off. If a developer creates a Speaker(Device) class but forgets to define turn_on(), Python won't complain until runtime when the code crashes.
-The Remote tracks whether the device is on via self.is_on. This is dangerous. The Device should be the single source of truth for its own state. If someone turns the TV on manually (via a physical button or a different remote object), your Remote state becomes completely desynchronized from reality.
-Because Python is dynamically typed, a developer could technically pass anything into Remote(device). Explicitly type-hinting the Device abstract class ensures better IDE auto-complete and static analysis linting.
+•Your Device class uses pass for its methods. In Python, this doesn't actually force subclasses like TV or Radio to implement turn_on or turn_off. If a developer creates a Speaker(Device) class but forgets to define turn_on(), Python won't complain until runtime when the code crashes.
+•The Remote tracks whether the device is on via self.is_on. This is dangerous. The Device should be the single source of truth for its own state. If someone turns the TV on manually (via a physical button or a different remote object), your Remote state becomes completely desynchronized from reality.
+•Because Python is dynamically typed, a developer could technically pass anything into Remote(device). Explicitly type-hinting the Device abstract class ensures better IDE auto-complete and static analysis linting.
+To fix these issues, use Python’s built-in abc module to enforce the interface, and delegate the power state entirely to the implementation side.
+
