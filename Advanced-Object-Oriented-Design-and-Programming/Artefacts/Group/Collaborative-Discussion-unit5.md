@@ -4,7 +4,7 @@
 
 - **Discussion topic:** Analyse a payment-processing code snippet and refactor it using the Strategy Pattern.
 - **Duration:** Unit 5 (this formative Collaborative Discussion starts and ends in this unit week).
-- **Required posts:** Initial Post (≤300 words).
+- **Required posts:** Initial Post (≤300 words), Peer Responses.
 
 ## Discussion Tasks
 
