@@ -96,10 +96,4 @@ o1.checkout(Paypal())
 o2.checkout(CreditCard())
 ```
 
-**How the solution applies SOLID:**
-
-- **SRP:** Order only manages items and totals; payment logic lives in the Payment classes.
-- **OCP:** adding a new payment method means adding a new Payment subclass, with no change to Order.
-- **LSP:** any Payment subclass can be passed to checkout() and works the same way.
-- **ISP:** the Payment interface has a single focused method, so subclasses implement only what they need.
-- **DIP:** Order.checkout() depends on the Payment abstraction, not on concrete payment classes.
+Order only manages items and totals now, the payment logic lives in its own classes (SRP). Adding a new payment method just means writing a new Payment subclass, no edits to Order (OCP). Any subclass can be passed to checkout() and works the same way (LSP). The Payment interface has a single method, so subclasses only implement what they need (ISP). And checkout() depends on the abstraction, not on a concrete payment class (DIP).
