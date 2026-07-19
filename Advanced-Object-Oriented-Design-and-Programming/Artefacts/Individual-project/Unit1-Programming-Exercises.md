@@ -1,5 +1,3 @@
-## Programming Exercises
-
 # Programming Exercise (Unit 1) – Classes, Inheritance, Polymorphism, Abstraction and Encapsulation
 
 ## Activity overview
