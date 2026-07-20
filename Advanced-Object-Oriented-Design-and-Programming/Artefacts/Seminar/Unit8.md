@@ -10,4 +10,4 @@ In my initial post I identified two smells in the provided code: magic numbers, 
 and a long method with conditional logic, where the if elif else chain kept growing with every new item type. 
 I refactored it with the Strategy Pattern, so each discount became its own class and the conditional disappeared entirely: adding a discount now just means writing one new class, 
 with no edits to calculate_total_price. My full post, code and the exchanges with my peers are in the Collaborative Discussion section [Collaborative-Discussion4-unit8](https://github.com/Elviix/E-portfolio/blob/main/Advanced-Object-Oriented-Design-and-Programming/Artefacts/Group/Collaborative-Discussion4-unit8.md). This exercise connected directly to my final artefact, 
-because Replace Conditional with Polymorphism is exactly what my Transaction hierarchy does with Deposit and Withdraw."
+because Replace Conditional with Polymorphism is exactly what my Transaction hierarchy does with Deposit and Withdraw.
