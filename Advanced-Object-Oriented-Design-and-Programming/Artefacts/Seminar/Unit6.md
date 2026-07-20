@@ -6,6 +6,7 @@ synchronisation mechanisms like locks and semaphores, and the classic concurrenc
 The practical exercise was to write a thread-safe bank account in Python with concurrent deposits and withdrawals.
 
 
+
 import threading
 
 class BankAccount:
