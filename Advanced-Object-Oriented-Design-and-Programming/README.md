@@ -1,2 +1,2 @@
 ## Artefacts
-[View artefacts](Artefacts-Index.md)
+[View artefacts](Artefacts-Inxdex.md)
