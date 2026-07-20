@@ -128,7 +128,7 @@ Nice work on the refactor, the hashing and lockout parts are done well. I'd add 
 
 **Peer 2:** I like that you used a regular expression to validate usernames before authentication, as it helps ensure only expected characters are accepted. I also noticed you used a dictionary to store users and failed login attempts, which simplifies lookups compared to iterating through a list. Overall, your solution is well structured and easy to follow.
 
-## References (Harvard)
+## References
 
 GeeksforGeeks (2025a) *Hashing passwords in Python with bcrypt*. Available at: https://www.geeksforgeeks.org/python/hashing-passwords-in-python-with-bcrypt/ (Accessed: 18 June 2026).
 
