@@ -21,4 +21,5 @@ For a short introduction, please see [About Me](About-Me.md).
 * [Induction Computing](Induction-Computing/README.md)
 * [Launch into Computing](Launch-into-Computing/README.md)
 * [Security and Risk Management](Security-and-Risk-Management/README.md)
+* [Advanced Object-Oriented Design and Programming](https://github.com/Elviix/E-portfolio/blob/main/Advanced-Object-Oriented-Design-and-Programming/README.md)
 
