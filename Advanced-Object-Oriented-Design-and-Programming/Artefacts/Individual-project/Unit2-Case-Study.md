@@ -53,7 +53,7 @@ class Order:
    - Solution: Depend on abstractions (PaymentMethod).
    - Improvement: Order depends on PaymentMethod (abstraction), not concrete classes.
 
-## My Solution
+## My Code
 
 ```python
 from abc import ABC, abstractmethod
