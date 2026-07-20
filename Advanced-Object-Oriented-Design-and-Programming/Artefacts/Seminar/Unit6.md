@@ -5,6 +5,7 @@ The Unit 6 seminar covered concurrency and parallelism: the difference between t
 synchronisation mechanisms like locks and semaphores, and the classic concurrency problems, race conditions and deadlocks. 
 The practical exercise was to write a thread-safe bank account in Python with concurrent deposits and withdrawals.
 
+
 import threading
 
 class BankAccount:
