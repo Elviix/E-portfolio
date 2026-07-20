@@ -11,3 +11,15 @@
 | 7 | Unit 10 Case Study : Secure E-Learning Platform (TDD) | Layered architecture, User Management module built test-first with bcrypt, input validation and lockout; 13 tests including an injection-style login attempt. | N/A | [Open](Artefacts/Individual-project//Unit10-Case-study.pdf) |
 | 8 | Final Artefact (Unit 12) : Thread-Safe Banking Program | Capstone: SOLID structure, Command, Decorator and Visitor patterns, dependency injection, deadlock prevention, 12 tests including mocking. Built by improving the Unit 6 exercise. | Pending | [Open](https://github.com/Elviix/E-portfolio/blob/main/Advanced-Object-Oriented-Design-and-Programming/Artefacts/Individual-project/End-of-module-assignment-code.py) |
 | 9 | End of Module Assignment : e-Portfolio Submission | Reflective piece: Tasks 1–4 (learning outcomes, artefact commentary, skill development, PDP). | Pending | [Open](https://github.com/Elviix/E-portfolio/blob/main/Advanced-Object-Oriented-Design-and-Programming/Artefacts/Individual-project/End-of-module-assignment.pdf) |
+
+## Seminars and unit pages
+
+| Unit | Title | Link |
+|---|---|---|
+| 1 | Introduction and Recap of Object-Oriented Programming | [Open](Artefacts/Seminar/Unit1.md) |
+| 2 | SOLID Principles of Object-Oriented Design | [Open](Artefacts/Seminar/Unit2.md) |
+| 4 | Structural Design Patterns | [Open](Artefacts/Seminar/Unit4.md) |
+| 6 | Concurrency and Parallelism in Object-Oriented Design | [Open](Artefacts/Seminar/Unit6.md) |
+| 8 | Refactoring and Code Smells | [Open](Artefacts/Seminar/Unit8.md) |
+| 10 | Test-Driven Development and Unit Testing | [Open](Artefacts/Seminar/Unit10.md) |
+| 12 | Capstone Project and Review | [Open](Artefacts/Seminar/Unit12.md) |
