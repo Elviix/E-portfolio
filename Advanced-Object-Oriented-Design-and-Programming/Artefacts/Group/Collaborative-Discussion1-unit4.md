@@ -155,7 +155,7 @@ Thank you for your example.
 I think your Bridge Pattern is more an inheritance pattern. In fact, the remote should hold a device and call through it, and not have AdvancedRemote inherit from BasicRemote.
 Also, on the Adapter, checking "<ok>" in xml is fine for a demo, but a real SOAP response would need proper XML parsing: string matching breaks with namespaces.
 
-# Peer Response 2
+## Peer Response 2
 In response to a peer's post applying the Adapter Pattern to SIEM platforms in Security Operations Centres, where connectors/parsers normalise vendor-specific log formats into a unified schema:
 Thank you for your post. The SIEM framing is really helpful since I am heading into a SOC internship and this is the kind of integration problem I may run into.
 From what I understand, the target interface in most cases is a fixed schema like Splunk's CIM, and a lot of the work is mapping vendor fields into it.
