@@ -30,7 +30,7 @@
       Add a destructor __del__(self) that prints a farewell message (e.g., "Goodbye, {name}!").
       Test by creating and deleting an instance (use del explicitly or let it go out of scope).
 
-## My Solution
+## My Code
 
 ### Task 1: Basic Class Hierarchy (Inheritance)
 
