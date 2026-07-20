@@ -93,6 +93,6 @@ Do you see this as mainly a tradeoff over who owns the type-to-discount mapping,
 
 **Peer 2:** I enjoyed reading your post. Your explanation of the Strategy Pattern clearly shows how it removes the conditional logic and makes the code easier to extend. I also like how you included a working example to demonstrate how the refactored solution works.
 
-## References (Harvard)
+## Reference
 
 GeeksforGeeks (2026) *Strategy Design Pattern*. Available at: https://www.geeksforgeeks.org/system-design/strategy-pattern-set-1/ (Accessed: 24 June 2026).
