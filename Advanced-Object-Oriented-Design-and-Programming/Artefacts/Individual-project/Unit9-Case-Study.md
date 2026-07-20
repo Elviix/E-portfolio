@@ -24,7 +24,7 @@
 4. Scalability and Extensibility: Dependency Injection, Observer Pattern for Notifications.
 5. Database Design (Data Access Layer).
 
-## My Solution
+## My code
 
 ```python
 import bcrypt
