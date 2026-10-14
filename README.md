@@ -22,5 +22,5 @@ For a short introduction, please see [About Me](About-Me.md).
 * [Launch into Computing](Launch-into-Computing/README.md)
 * [Security and Risk Management](Security-and-Risk-Management/README.md)
 * [Advanced Object-Oriented Design and Programming](https://github.com/Elviix/E-portfolio/blob/main/Advanced-Object-Oriented-Design-and-Programming/README.md)
-* [Cloud Computing](Cloud-Computing/README.md)
+* [Cloud Operations and Management](Cloud-Operations-and-Management/README.md/README.md)
 
