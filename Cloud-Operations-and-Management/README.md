@@ -1,4 +1,4 @@
-# Cloud Operations and Management
+# Cloud Operations and Management  
 
 This module covered cloud computing from its foundations to emerging trends:
 service and deployment models, cloud architecture frameworks and Infrastructure
@@ -10,6 +10,6 @@ these topics together.
 
 ## Contents
 
-- [Artefacts index](Artefacts-Index.md)  all artefacts with descriptions, feedback and links
+- [Artefacts index](Artefacts-Inxdex.md)  all artefacts with descriptions, feedback and links
 - [Individual project](Artefacts/Individual-project)  cloud strategy report (Medevac Air Rescue) and the final e-portfolio
 - [Group work](Artefacts/Group)  team project on Azure Resource Manager, discussion posts and peer feedback
