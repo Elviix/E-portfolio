@@ -1,4 +1,4 @@
-# Cloud Operations and Management  
+# Cloud Operations and Management                          
 
 This module covered cloud computing from its foundations to emerging trends:
 service and deployment models, cloud architecture frameworks and Infrastructure
