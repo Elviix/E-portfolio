@@ -1,7 +1,7 @@
 # Formative Discussion (Unit 8) – Disaster Recovery Plan with Restic
-**Activity overview**
+## Activity overview
 **Discussion topic: Design and implementation of a Disaster Recovery (DR) plan for a cloud-based infrastructure, simulating a realistic failure scenario and using an open-source backup tool, with an evaluation of RTO and RPO targets.**
-**Duration: Unit 8.**
+**Duration: Unit 8.
 **Posts included: Initial Post, 1 Peer Response, Tutor Feedback.**
 
 --- 
