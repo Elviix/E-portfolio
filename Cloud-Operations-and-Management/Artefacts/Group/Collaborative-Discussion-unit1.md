@@ -1,7 +1,7 @@
 # Formative Discussion (Unit 1) – AWS vs Google Cloud
 ## Activity overview 
-**Discussion topic:** Comparison of Amazon Web Services (AWS) and Google Cloud across flexibility, pricing, AI/ML capabilities and practical use cases.
-**Duration:** Unit 1
+**Discussion topic:** Comparison of Amazon Web Services (AWS) and Google Cloud across flexibility, pricing, AI/ML capabilities and practical use cases.<br>
+**Duration:** Unit 1. <br>
 **Posts included:** Initial Post, 2 Peer Responses, Tutor Feedback
 
 ---
