@@ -1,9 +1,10 @@
 # Formative Discussion (Unit 1) – AWS vs Google Cloud
-Activity overview
-Discussion topic: Comparison of Amazon Web Services (AWS) and Google Cloud across flexibility, pricing, AI/ML capabilities and practical use cases.
-Duration: Unit 1.
-Posts included: Initial Post, 2 Peer Responses, Tutor Feedback.
-Initial Post
+## Activity overview
+* Discussion topic: Comparison of Amazon Web Services (AWS) and Google Cloud across flexibility, pricing, AI/ML capabilities and practical use cases.
+* Duration: Unit 1.
+* Posts included: Initial Post, 2 Peer Responses, Tutor Feedback.
+
+## Initial Post
 
 Amazon Web Services (AWS) continues to retain market leadership, offering the highest number of availability zones (63) and serving major global clients such as Netflix, Facebook, and BMW (Rachita et al., 2025, p. 40). Google Cloud (GC) by contrast, maintains the lowest entry level pricing, at approximately 0.05$ per small instance, and demonstrates greater strength in artificial intelligence and machine learning workloads.
 
@@ -19,7 +20,7 @@ Reference
 
 Rachita, Sharma, M., Chopra, S. and Galhotra, B. (2025) 'Comparative analysis of Amazon Web Services (AWS), Azure, and Google Cloud: core services, market strategy, and pricing models', in New Horizons of Science, Technology and Culture, Vol. 4. 1st edn. BP International, pp. 33–45. Available at: https://doi.org/10.9734/bpi/nhstc/v4/6019
 
-Peer Response 1
+## Peer Response 1
 
 Thank you for your comparison. I found your point about Google Cloud's flexibility particularly interesting, especially the use of custom machine types and automatic sustained-use discounts. This can make cost management easier for organisations that are still experimenting with workload size and resource requirements.
 
@@ -29,7 +30,7 @@ I also agree with your distinction between experimental AI workloads and large-s
 
 Reference: Gupta, D. (2024) The Cloud Computing Journey. Birmingham: Packt Publishing.
 
-Peer Response 2
+## Peer Response 2
 
 Your post is very clear and contains much valuable information in the comparison of AWS and Google Cloud, especially in terms of the quantitative pricing, flexibility, and AI/ML capabilities. I find the point about of how each platform is suited to different types of workloads particularly relevant as this is always a use case questions. It is practical to see that AWS's extensive range of instance types and global infrastructure make it a strong choice for large-scale and production environments, while Google Cloud's flexible pricing and strong AI/ML capabilities make it attractive for experiment and development.
 
@@ -39,6 +40,6 @@ Overall, your post provides a practical overview of some of strengths of both cl
 
 Reference: Galhotra, B., 2025. Comparative analysis of Amazon Web Services (AWS), Azure, and Google Cloud: Core services, market strategy, and pricing models. New Horizons of Science, Technology and Culture, 33.
 
-Tutor Feedback
+## Tutor Feedback
 
 Good work – your post is clear and practical because you compare AWS and Google Cloud through concrete criteria such as instance flexibility, free-tier options, sustained-use discounts and AI/ML suitability. The distinction between Google Cloud for experimental, data-driven AI development and AWS for larger production-grade deployment is useful, especially where you connect it to SageMaker, Braket and Google Cloud's lower-friction prototyping model (Rachita et al., 2025). One area to treat carefully is pricing: the figures are helpful, but total cost will still depend on region, data transfer, utilisation and support needs, so workload-specific costing would strengthen the conclusion further.
