@@ -1,4 +1,4 @@
-# Artefacts – Cloud Operations and Management      
+# Artefacts – Cloud Operations and Management           
 | # | Artefact | Short description | Feedback | Link |
 |---|---|---|---|---|
 | 1 | Formative Discussion (Unit 1) : AWS vs Google Cloud | Comparison of AWS and Google Cloud on pricing, availability zones, instance types and AI/ML capabilities, with two peer responses. | Formative. Peer raised vendor lock-in; tutor noted that total cost depends on region, data transfer and utilisation. Since then, I treat vendor lock-in as a design criterion and consider usage-based cost. | [Open](Artefacts/Group/Collaborative-Discussion-unit1.md) |
