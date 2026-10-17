@@ -11,5 +11,5 @@ these topics together.
 ## Contents
 
 - [Artefacts index](Artefacts-Inxdex.md)  all artefacts with descriptions, feedback and links
-- [Individual project](Artefacts/Individual-project)  cloud strategy report (Medevac Air Rescue) and the final e-portfolio
+- [Individual project](Individual-project)  cloud strategy report (Medevac Air Rescue) and the final e-portfolio
 - [Group work](Artefacts/Group)  team project on Azure Resource Manager, discussion posts and peer feedback
