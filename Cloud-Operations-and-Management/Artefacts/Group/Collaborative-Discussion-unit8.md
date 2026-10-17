@@ -14,11 +14,12 @@ I used Restic as the backup and recovery tool. Restic encrypts data client-side 
 
 The Recovery Point Objective (RPO) is the maximum amount of data, measured in time, that can be lost. The Recovery Time Objective (RTO) is the maximum acceptable downtime before the service is restored. For a small business that manages invoices and reports on this server, I set both targets at 60 minutes, one hour of data entry can easily be redone, and a one hour interruption does not block invoicing.
 
-Event	Time
-Backup	08:11:07
-Deletion	08:12:15
-Restore started	08:12:15
-Data verified	08:12:20
+| Event | Time |
+|---|---|
+| Backup | 08:11:07 |
+| Deletion | 08:12:15 |
+| Restore started | 08:12:15 |
+| Data verified | 08:12:20 |
 
 Figure: Simulated deletion, restoration from snapshot and integrity check
 <img width="662" height="222" alt="image" src="https://github.com/user-attachments/assets/3325f5c3-a40f-4a52-8e98-3159365c3b5a" />
